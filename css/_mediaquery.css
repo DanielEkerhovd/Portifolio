@@ -1,0 +1,35 @@
+@media (max-width: 700px){
+    
+    .portifolio {
+        margin: 50px auto 0;
+
+    }
+
+    .projects {
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 8vw
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    p, li {
+        font-size: 4vw;
+    }
+
+    .soMe-icon, .logo {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+
+
+}

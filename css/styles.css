@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFCC70;
+    color: #383838;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-size: 1.5rem;
+}
+
+header {
+    width: var(--content-width);
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    background-color: #383838;
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.nav {
+    display: inline-flex;
+    font-size: 1.5rem;
+}
+
+.portifolio {
+    width: var(--content-width);
+    margin: var(--center);
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.intro {
+    width: 100%;
+    max-width: var(--content-max-width);
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--big-item);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.soMe-icon {
+    width: var(--icon-sizing);
+    height: var(--icon-sizing);
+    filter: var(--darken-image);
+}
+
+.skills {
+    margin-top: 80px;
+    margin-bottom: 72px;
+    width: 100%;
+    max-width: var(--small-item);
+}
+
+/* ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    margin: 5px 10px;
+} */
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 20px;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff1c5;
+}
+
+.project {
+    margin: 80px 0;
+    width: var(--content-width);
+    max-width: var(--content-max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--content-gap);
+}
+
+.project-img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+    transition: 0.3s ease;
+}
+
+.project-img:hover {
+    transform: translateY(-10px);
+}
+
+.project-text {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
