@@ -8,6 +8,11 @@
     .projects {
         margin: 0;
     }
+
+    .project img {
+        height: 200px;
+    }
+
     
     h1 {
         font-size: 8vw

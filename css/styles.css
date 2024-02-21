@@ -62,10 +62,8 @@ header {
 .portifolio {
     width: var(--content-width);
     margin: var(--center);
-    padding-bottom: 70px;
     display: flex;
     justify-content: center;
-
 }
 
 .intro {
@@ -100,17 +98,6 @@ header {
     max-width: var(--small-item);
 }
 
-/* ul {
-    text-align: center;
-}
-
-li {
-    display: inline-block;
-    text-align: left;
-    list-style-type: none;
-    margin: 5px 10px;
-} */
-
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -125,16 +112,17 @@ li {
 
 .projects {
     width: 100%;
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 0;
+    padding: 100px 0;
+    gap: 100px;
+    
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #fff1c5;
 }
 
 .project {
-    margin: 80px 0;
     width: var(--content-width);
     max-width: var(--content-max-width);
     display: flex;
@@ -144,11 +132,18 @@ li {
     gap: var(--content-gap);
 }
 
+.project a {
+    width: 100%;
+}
+
 .project-img {
     display: block;
     width: 100%;
-    object-fit: cover;
     border-radius: 5px;
+    object-fit: cover;
+    object-position: top left;
+
+    height: 365px;
 
     transition: 0.3s ease;
 }
@@ -164,5 +159,11 @@ li {
     flex-direction: column;
     justify-content: space-between;
     gap: 15px;
+}
+
+.reverse {
+    justify-content: end;
+    align-items: end;
+    text-align: end;
 }
 
