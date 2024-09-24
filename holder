@@ -1,0 +1,61 @@
+<div class="project darelokken reverse">
+                <a href="https://darelokken.no/" target="_blank"><img class="project-img darelokken-img" src="/images/darelokken.png" alt="Darelokken website"></a>
+                <div class="project-text reverse">
+                    <h2>DÅRELOKKEN</h2>
+                    <p class="light">Website created and hosted for a hair saloon located in Voss, Norway. Focuses on creating a clean and well functioning website, mainly relating to people 60 years+</p>
+                    <div class="technologies ">
+                        <ul class="">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Tailwind</li>
+                            <li>Javascript</li>
+                            <li class="underline"><a href="https://www.figma.com/design/QpH2uMNU4Ad0lhKC2WE0AR/D%C3%A5relokken-website?node-id=0-1&t=6sg0mtmHLn44HD1R-1" target="_blank">Figma</a></li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DanielEkerhovd/Darelokken" target="_blank"><img src="icons/github.png" alt="Github Link"></a>
+                        <a href="https://darelokken.no/" target="_blank"><img src="icons/internet.png" alt="Website link"></a>
+                    </div>  
+                </div>
+            </div>
+            <div class="project thebrewery">
+                <a href="https://thebrewery.netlify.app/" target="_blank"><img class="project-img thebrewery-img" src="/images/thebrewery.png" alt="The Brewery Webside"></a>
+                <div class="project-text">
+                    <h2>THE BREWERY</h2>
+                    <p class="light">A blogpage for a group of brewers doing different brews and educational programs.</p>
+                    <div class="technologies ">
+                        <ul class="">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Wordpress API</li>
+                            <li>Figma</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-DanielEkerhovd" target="_blank"><img src="icons/github.png" alt="Github Link"></a>
+                        <a href="https://thebrewery.netlify.app/" target="_blank"><img src="icons/internet.png" alt="Website link"></a>
+                    </div>  
+                </div>
+            </div>
+            <div class="project curiositycenter reverse">
+                <a href="https://curiositycenter.netlify.app/" target="_blank"><img class="project-img curiositycenter-img" src="/images/curiositycenter.jpg" alt="Curiosity Center Webside"></a>
+                <div class="project-text reverse">
+                    <h2>CURIOSITY CENTER</h2>
+                    <p class="light">A static website for a interactive science museum, appealing to the young and their families. </p>
+                    <div class="technologies reverse">
+                        <ul class="reverse">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Figma</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/DanielEkerhovd/SemesterProject1" target="_blank"><img src="icons/github.png" alt="Github Link"></a>
+                        <a href="https://curiositycenter.netlify.app/" target="_blank"><img src="icons/internet.png" alt="Website link"></a>
+                    </div>                    
+                </div>
+            </div>
