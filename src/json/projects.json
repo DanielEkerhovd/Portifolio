@@ -30,10 +30,10 @@
             "description": "BIDR is an auction website, created as a project for my 3rd semester @Noroff. The project goal is to create a functional auction website, using technologies we have learned during the education. This includes the full process from an user story to a finished product.",
             "technologies": [
                 "HTML",
-                "TailwindCSS",
+                "Tailwind",
                 "JavaScript",
                 "Figma",
-                "Noroff API v2",
+                "Noroff API",
                 "Testing (unit and E2E)"
             ],
             "media": {
