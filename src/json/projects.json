@@ -2,6 +2,31 @@
 
     "projects": [
         {
+            "name": "Pokeguess.app",
+            "description": "Originally an app for practicing pokemon typings, but since evolved into an pokemon type guessing app! The project is possible by using the offical Pokémon API.",
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "TailwindCSS",
+                "Vite",
+                "PokeAPI"
+            ],
+            "media": {
+                "github": {
+                    "url": "https://github.com/DanielEkerhovd/pokeguess.app"
+                },
+                "live": {
+                    "url": "https://pokeguess.app/"
+                },
+                "figma": {
+                    "url": ""
+                },
+                "image": {
+                    "url": "./images/pokeguess.png"
+                }
+            }
+        },
+        {
             "name": "Dårelokken",
             "description": "Dårelokken is a website project, created for a local hair saloon located in Voss, Norway. The project focuses on create a clean and modern design, with a focus on user experience. Main goal is to provide easy access to information about pricing and contact information.",
             "technologies": [

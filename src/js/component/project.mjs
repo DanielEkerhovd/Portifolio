@@ -29,6 +29,10 @@ export default function createProject(info) {
     const infoContainer = document.createElement('div');
     infoContainer.classList.add('project-text');
 
+    const link = document.createElement('a');
+    link.href = projectMedia.live.url;
+    link.target = '_blank';
+
     const title = document.createElement('h2');
     title.innerHTML = projectName.toUpperCase();
 
@@ -80,8 +84,9 @@ export default function createProject(info) {
 
     links.append(github, website);
 
+    link.appendChild(title);
 
-    infoContainer.append(title, description, tech, links);
+    infoContainer.append(link, description, tech, links);
 
 
 
