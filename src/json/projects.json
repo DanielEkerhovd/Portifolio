@@ -2,6 +2,30 @@
 
     "projects": [
         {
+            "name": "WEBvest",
+            "description": "My freelance company. WEBvest creates and maintains website solutions for customers, all from small to medium sized businesses around Vestlandet, Norway.",
+            "technologies": [
+                "HTML",
+                "JavaScript",
+                "TailwindCSS",
+                "Vite"
+            ],
+            "media": {
+                "github": {
+                    "url": "https://github.com/WEBvest"
+                },
+                "live": {
+                    "url": "https://webvest.no/"
+                },
+                "figma": {
+                    "url": ""
+                },
+                "image": {
+                    "url": "./images/webvest.png"
+                }
+            }
+        },
+        {
             "name": "Pokeguess.app",
             "description": "Originally an app for practicing pokemon typings, but since evolved into an pokemon type guessing app! The project is possible by using the offical Pokémon API.",
             "technologies": [

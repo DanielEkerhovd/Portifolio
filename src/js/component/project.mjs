@@ -20,7 +20,7 @@ export default function createProject(info) {
     heroImg.src = projectMedia.image.url;
     heroImg.alt = `${projectName} project image`;
 
-    if (projectName === 'BIDR') {
+    if (projectName === 'BIDR' || projectName === 'WEBvest') {
         // Change heriImg position
         heroImg.style.objectPosition = 'center';
     }

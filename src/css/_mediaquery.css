@@ -36,5 +36,9 @@
         font-size: 2rem;
     }
 
+    .contact p {
+        display: none;
+    }
+
 
 }
