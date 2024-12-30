@@ -6,7 +6,7 @@
             "description": "My freelance company. WEBvest creates and maintains website solutions for customers, all from small to medium sized businesses around Vestlandet, Norway.",
             "technologies": [
                 "HTML",
-                "JavaScript",
+                "ReactJS",
                 "TailwindCSS",
                 "Vite"
             ],
