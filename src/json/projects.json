@@ -1,127 +1,70 @@
 {
-
-    "projects": [
-        {
-            "name": "WEBvest",
-            "description": "My freelance company. WEBvest creates and maintains website solutions for customers, all from small to medium sized businesses around Vestlandet, Norway.",
-            "technologies": [
-                "HTML",
-                "ReactJS",
-                "TailwindCSS",
-                "Vite"
-            ],
-            "media": {
-                "github": {
-                    "url": "https://github.com/WEBvest"
-                },
-                "live": {
-                    "url": "https://webvest.no/"
-                },
-                "figma": {
-                    "url": ""
-                },
-                "image": {
-                    "url": "./images/webvest.png"
-                }
-            }
+  "projects": [
+    {
+      "name": "HOLIDAZE",
+      "description": "HOLIDAZE is a travel agency website, created as a project for my 2nd semester @Noroff. The project goal is to create a functional travel agency website, using technologies we have learned during the education. This includes the full process from an user story to a finished product.",
+      "technologies": ["HTML", "Tailwind", "ReactJS", "Figma", "Noroff API"],
+      "media": {
+        "github": {
+          "url": "https://github.com/DanielEkerhovd/Project-exam-2"
         },
-        {
-            "name": "Pokeguess.app",
-            "description": "Originally an app for practicing pokemon typings, but since evolved into an pokemon type guessing app! The project is possible by using the offical Pokémon API.",
-            "technologies": [
-                "HTML",
-                "JavaScript",
-                "TailwindCSS",
-                "Vite",
-                "PokeAPI"
-            ],
-            "media": {
-                "github": {
-                    "url": "https://github.com/DanielEkerhovd/pokeguess.app"
-                },
-                "live": {
-                    "url": "https://pokeguess.app/"
-                },
-                "figma": {
-                    "url": ""
-                },
-                "image": {
-                    "url": "./images/pokeguess.png"
-                }
-            }
+        "live": {
+          "url": "https://pe2-holidaze-ekerhovd.netlify.app"
         },
-        {
-            "name": "Dårelokken",
-            "description": "Dårelokken is a website project, created for a local hair saloon located in Voss, Norway. The project focuses on create a clean and modern design, with a focus on user experience. Main goal is to provide easy access to information about pricing and contact information.",
-            "technologies": [
-                "HTML",
-                "TailwindCSS",
-                "JavaScript",
-                "Figma"
-            ],
-            "media": {
-                "github": {
-                    "url": "https://github.com/DanielEkerhovd/darelokken.no"
-                },
-                "live": {
-                    "url": "https://darelokken.no/"
-                },
-                "figma": {
-                    "url": "https://www.figma.com/design/QpH2uMNU4Ad0lhKC2WE0AR/D%C3%A5relokken-website?node-id=0-1&t=6sg0mtmHLn44HD1R-1"
-                },
-                "image": {
-                    "url": "./images/darelokken.png"
-                }
-            }
+        "figma": {
+          "url": "https://www.figma.com/design/cTdKu0X8wsoAIv8oDrLufH/Holidaze?node-id=57-236&t=w8JI0LT6cAHtAWt8-1"
         },
-        {
-            "name": "BIDR",
-            "description": "BIDR is an auction website, created as a project for my 3rd semester @Noroff. The project goal is to create a functional auction website, using technologies we have learned during the education. This includes the full process from an user story to a finished product.",
-            "technologies": [
-                "HTML",
-                "Tailwind",
-                "JavaScript",
-                "Figma",
-                "Noroff API",
-                "Testing (unit and E2E)"
-            ],
-            "media": {
-                "github": {
-                    "url": "https://github.com/DanielEkerhovd/semester-project-2"
-                },
-                "live": {
-                    "url": "https://netlify--bidrapp.netlify.app/"
-                },
-                "figma": {
-                    "url": "https://www.figma.com/design/2qW2HW7gqrR5zESDlXvxzU/BIDR---Prototype?node-id=29-693&t=7zgLQDLeQMAxGwVA-1"
-                },
-                "image": {
-                    "url": "./images/bidr.png"
-                }
-            }
-        },
-        {
-            "name": "Curiosity Center",
-            "description": "A static website for a interactive science museum, appealing to the young and their families.",
-            "technologies": [
-                "HTML",
-                "CSS",
-                "Figma"
-            ],
-            "media": {
-                "github": {
-                    "url": "https://github.com/DanielEkerhovd/SemesterProject1"
-                },
-                "live": {
-                    "url": "https://curiositycenter.netlify.app/"
-                },
-                "figma": {
-                    "url": ""
-                },
-                "image": {
-                    "url": "./images/curiositycenter.jpg"
-                }
-            }
+        "image": {
+          "url": "./images/holidaze.png"
         }
-        
-]}
+      }
+    },
+    {
+      "name": "BIDR",
+      "description": "BIDR is an auction website, created as a project for my 3rd semester @Noroff. The project goal is to create a functional auction website, using technologies we have learned during the education. This includes the full process from an user story to a finished product.",
+      "technologies": [
+        "HTML",
+        "Tailwind",
+        "JavaScript",
+        "Figma",
+        "Noroff API",
+        "Testing (unit and E2E)"
+      ],
+      "media": {
+        "github": {
+          "url": "https://github.com/DanielEkerhovd/semester-project-2"
+        },
+        "live": {
+          "url": "https://bidrapp.netlify.app/"
+        },
+        "figma": {
+          "url": "https://www.figma.com/design/2qW2HW7gqrR5zESDlXvxzU/BIDR---Prototype?node-id=29-693&t=7zgLQDLeQMAxGwVA-1"
+        },
+        "image": {
+          "url": "./images/bidr.png"
+        }
+      }
+    },
+    {
+      "name": "ReactShop",
+      "description": "ReactShop is a simple e-commerce website, created as a project for my 3rd semester @Noroff. The project goal is to create a functional e-commerce website, using technologies we have learned during the education. This includes the full process from an user story to a finished product.",
+      "technologies": [
+        "HTML",
+        "Tailwind",
+        "React",
+        "Noroff API"
+      ],
+      "media": {
+        "github": {
+          "url": "https://github.com/DanielEkerhovd/JSframeworkCA"
+        },
+        "live": {
+          "url": "https://cajsframework.netlify.app/"
+        },
+        "image": {
+          "url": "./images/reactshop.png"
+        }
+      }
+    }
+  ]
+}
