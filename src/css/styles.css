@@ -130,7 +130,7 @@ li {
 .projects {
   width: 100%;
   padding: 100px 0;
-  gap: 100px;
+  gap: 200px;
 
   display: flex;
   flex-direction: column;
@@ -157,10 +157,8 @@ li {
   display: block;
   width: 100%;
   border-radius: 5px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top left;
-
-  height: 365px;
 
   transition: 0.3s ease;
 }
